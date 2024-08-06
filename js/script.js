@@ -78,7 +78,7 @@ const stages = [trailsStage, mainStage];
 //随机文字烟花内容
 const randomWords = ["mua", "长长久久","520","1314","我喜欢你","张修苹"];
 const wordDotsMap = {};
-const fontSize = Math.max(20, Math.min(40, window.innerWidth / 10)) + "px";
+const fontSize = Math.max(50, Math.min(40, window.innerWidth / 10)) + "px";
 randomWords.forEach((word) => {
 	wordDotsMap[word] = MyMath.literalLattice(word, 4, "Gabriola,华文琥珀", fontSize);
 });
