@@ -79,7 +79,7 @@ const stages = [trailsStage, mainStage];
 const randomWords = ["mua", "长长久久","520","1314","我喜欢你","张修苹"];
 const wordDotsMap = {};
 randomWords.forEach((word) => {
-	wordDotsMap[word] = MyMath.literalLattice(word, 3, "Gabriola,华文琥珀", "90px");
+	wordDotsMap[word] = MyMath.literalLattice(word, 4, "Gabriola,华文琥珀", "40px");
 });
 
 //全屏帮助程序，使用Fscreen作为前缀。
