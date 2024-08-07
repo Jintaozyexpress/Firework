@@ -76,7 +76,7 @@ const mainStage = new Stage("main-canvas");
 const stages = [trailsStage, mainStage];
 
 //随机文字烟花内容
-const randomWords = ["mua","我喜欢你","张修苹"];
+const randomWords = ["mua","我喜欢你","张修苹","1314","520","🌹"];
 const wordDotsMap = {};
 const fontSize = Math.max(80, Math.min(40, window.innerWidth / 10)) + "px";
 randomWords.forEach((word) => {
